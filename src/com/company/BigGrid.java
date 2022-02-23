@@ -1,42 +1,38 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class BigGrid {
     //Setting Properties & ArrayLists
-    private List<Integer> rows = new ArrayList<>();
-    private List<Integer> columns = new ArrayList<>();
-    private List <Integer> miniGrids = new ArrayList<>();
+
+    private int rows;
+    private int columns;
+    //private int miniGrids;
+
+
 
 
     //Setters & Getters
 
-    public void setRows (List<Integer> rows) {
+    public void setRows (int rows) {
         this.rows = rows;
     }
-    public List<Integer> getRows() {
+    public int getRows() {
         return rows;
     }
-    public void setColumns (List<Integer> columns) {
+    public void setColumns (int columns) {
         this.columns = columns;
     }
-    public List<Integer> getColumns() {
+    public int getColumns() {
         return columns;
     }
-    public void setMiniGrids (List<Integer> miniGrids) {
+    /*
+    public void setMiniGrids (int miniGrids) {
         this.miniGrids = miniGrids;
     }
-    public List<Integer> getMiniGrids() {
+    public int getMiniGrids() {
         return miniGrids;
     }
+*/
 
 
-    //Constructor
-    public BigGrid (List<Integer> rows, List<Integer> columns, List<Integer> miniGrids){
-        this.rows = rows;
-        this.columns = columns;
-        this.miniGrids = miniGrids;
     }
 
-}
